@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .profile-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .profile-info img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .profile-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Conheça um pouco mais sobre mim.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="sobre" class="container">
+        <h2>Sobre Mim</h2>
+        <div class="profile-info">
+            <img src="https://photos.google.com/album/AF1QipNY-EvJnoXMO8hQVTp8ocyH35WXoheM2wqQCKYc/photo/AF1QipNlbCOze-J_eTm80LoR-GT0_8u5GPhUMrXp2xla>
+            <p>Olá! Meu nome é Júlia Nívia Basilio Batista. Tenho 16 anos e sou apaixonada por artes, especialmente por desenhar, ler e escrever. Estou sempre em busca de novos desafios e aprendizados.</p>
+            <p>Atualmente sou estudante da Escola Municipal Maria Conceição Golsalves Carrara, localizada em Pedra Dourada.</p>
+        </div>
+    </section>
+
+    <section id="experiencia" class="container">
+        <h2>Experiência</h2>
+        <p>Embora ainda esteja no ensino médio, estou em busca de novas experiências, principalmente nas áreas de desenvolvimento e design. Algumas das minhas atividades incluem:</p>
+        <ul>
+            <li><strong>Participação em Oficinas</strong> - Workshops de arte e design (2021 - 2022)</li>
+        </ul>
+    </section>
+
+    <section id="juhniviaflor138@gmail.com" class="Email">
+        <h2>Contato</h2>
+        <p>Você pode me encontrar nas seguintes redes sociais:</p>
+        <div class="social-links">
+            <a href="https://x.com/138Juh" target="_blank">X-Twitter</a>
+            <a href="https://https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Exemplo de script para interatividade (pode ser expandido)
+        console.log("Bem-vindo ao meu site!");
+    </script>
+</body>
+</html>
